@@ -1,0 +1,20 @@
+\question Construct an explicit deformation retraction of the torus with one 
+point deleted onto a graph consisting of two circles intersecting in a point, 
+namely, longitude and meridian circles of the torus.
+
+\begin{solution}
+Let $I = [-1, 1]$ be an interval on $\mathbb{R}^2$. Let the origin $(0,0)$ be
+the point deleted from the torus. Consider the map $f: I^2 - \{0\} \rightarrow
+\mathbb{S}$ \[f(x) = \frac{x}{\norm{x}{}}.\] Notice that $f$ is a deformation 
+retraction onto $\mathbb{S}$.
+
+Consider $g = f\rvert_{\partial I^2}$, which sends all points on $\partial I^2$
+onto $\mathbb{S}$. With this definition, $g^{-1} \circ f$ is a deformation
+retraction sending all points $I^2 - \{0\}$ to $\partial I^2$.
+
+Now, define the homotopy $H: \mathbb{T}^2 - \{*\} \times I \rightarrow \partial
+I^2$ by \[ H(x,t) = (1-t)x + t(g^{-1} \circ f). \] This is a deformation
+retraction of the torus with one point deleted onto $\partial I^2$, which is a
+graph of two cricles intersecting at a point.
+
+\end{solution}

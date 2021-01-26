@@ -1,0 +1,21 @@
+\question Show that if a space $X$ deformation retracts to a point $x \in X$,
+then for each neighborhood $U$ of $x \in X$ there exists a neighborhood $V
+\subseteq U$ of $x$ such that the inclusion $V \hookrightarrow U$ is
+nullhomotopic.
+
+
+\begin{solution}
+    By hypothesis, there is a homotopy $f: X \times I \rightarrow X$ with $f_0 =
+    \mathbb{1}_X$ and $f(x,t) = x$ for all $t$. By continuity, $f^{-1}(U)$ is an
+    open set for all open sets $U \subseteq X$. In other words, for each $t$
+    there is a neighborhood $V_t \ni x$ and an open interval $I_t \ni t$ such
+    that $f(V_t, I_t) \subseteq U$.
+
+    $I$ is compact so there is a finite set of intervals $I_1, \ldots, I_n$,
+    covering $I$, with corresponding sets $V_1, \ldots, V_n$ so that $f(V_i
+    \times I_i) \subseteq U$ for $i = 1, \ldots, n$. 
+
+    Now, set $V = U \cap V_1 \cap \cdots \cap V_n$ and notice that $f(V \times
+    I) \subseteq U$ and $f\rvert_{V \times I}$ is a homotopy from $V
+    \hookrightarrow U$ to a constant map. \hfill $\blacksquare$
+\end{solution}

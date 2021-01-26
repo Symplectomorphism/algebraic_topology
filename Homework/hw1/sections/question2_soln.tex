@@ -1,0 +1,21 @@
+\question Construct an explicit deformation retraction of $\mathbb{R}^n - \{0\}$ 
+onto $\mathbb{S}^{n-1}$.
+
+\begin{solution}
+    consider the following family of functions $f_t: \mathbb{R}^n - \{0\}
+    \rightarrow \mathbb{S}^{n-1}$ for all $t \in \mathbb{R}$.
+    \begin{equation*}
+        f_t(x) = x + \left( \frac{1}{\norm{x}{}} - 1 \right)tx.
+    \end{equation*}
+    Notice that $f_0(x) = x$, so that $f_0 = \mathbb{1}$. We compute
+    \begin{equation*}
+        f_t(x) \cdot f_t(x) = \norm{x}{}^2 \left( 1 + \left( 
+            \frac{1}{\norm{x}{}} - 1 \right)t \right)^2.
+    \end{equation*}
+    %
+    Hence $\norm{f_1(x)}{}^2 = 1$, showing that $f_1(x) \in \mathbb{S}^{n-1}$ 
+    for any $x \in \mathbb{R}^n - \{0\}$.
+
+    Finally, if $x \in \mathbb{S}^{n-1}$, then $\norm{x}{} = 1$ so $f_t$ reduces 
+    to the identity map. \hfill $\blacksquare$
+\end{solution}
