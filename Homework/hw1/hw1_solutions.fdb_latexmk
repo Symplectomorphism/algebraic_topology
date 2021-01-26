@@ -1,5 +1,5 @@
 # Fdb version 3
-["lualatex"] 1611690801 "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.tex" "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.pdf" "hw1_solutions" 1611690802
+["lualatex"] 1611703645 "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.tex" "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.pdf" "hw1_solutions" 1611703646
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc" 1604530195 124128 93a709a9d5fdb971f2bc265ce9be1799 ""
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-italic.luc" 1604530195 131060 529f98c8e4247198089c3b8c3dc401ae ""
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc" 1604530132 123499 c5f7384c64afc561e21f1eba24e9f128 ""
@@ -7,7 +7,7 @@
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman6-regular.luc" 1607018000 124341 263e8913e6234cdff010e063e7578a78 ""
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/fonts/otl/lmroman8-regular.luc" 1605109782 123967 89f9a1900ac4e9dc9d3bf2bf0db4ceec ""
   "/home/aykutsatici/.texlive2020/texmf-var/luatex-cache/generic/names/luaotfload-names.luc" 1604510218 1316083 33655382fbe4cc8d0c2dbe5c9198844c ""
-  "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.aux" 1611690802 1746 0f556ccba5862c3c37d9d8b226455156 ""
+  "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.aux" 1611703646 1746 8ff6cdb63279a44ca35e239c0f98a268 ""
   "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.tex" 1611685215 676 116c8909b50ef49cae9056d421485c21 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf" 1255129361 110496 b9c8767d4cc3bf3f4b21f676bf89aa78 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/opentype/public/lm/lmroman12-italic.otf" 1255129361 117732 558aeb4ada25b652cc2e9bcf0771e962 ""
@@ -380,7 +380,7 @@
   "/usr/local/texlive/2020/texmf-dist/tex/luatex/luaotfload/luaotfload-unicode.lua" 1599167189 3061 c7d3f282db7a0f9588cc57d8f079a3cb ""
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1604508051 5022058 744aaa57babb7b0780e2d4c19c2ff31b ""
   "/usr/local/texlive/2020/texmf-var/web2c/luahbtex/lualatex.fmt" 1604508082 3229343 cc5b9c9b925beb88bf2824feba6193f0 ""
-  "hw1_solutions.aux" 1611690802 1746 0f556ccba5862c3c37d9d8b226455156 "lualatex"
+  "hw1_solutions.aux" 1611703646 1746 8ff6cdb63279a44ca35e239c0f98a268 "lualatex"
   "hw1_solutions.tex" 1611685215 676 116c8909b50ef49cae9056d421485c21 ""
   "preamble.tex" 1611685215 4503 83943c1e062f3504f352bb22681db2d1 ""
   "sections/question1_soln.tex" 1611685352 1029 1f94f229fe129e9f8ef7dc6d6836bc1f ""
@@ -388,11 +388,11 @@
   "sections/question3_soln.tex" 1611690801 2637 f09348fd00f4f5570715f1b7ae44e807 ""
   "sections/question4_soln.tex" 1611685215 863 7a4ac62a6f81d299021a3eae0f3a0dd9 ""
   "sections/question5_soln.tex" 1611685477 1070 66f798fd4ed7b176a37d7a9890677785 ""
-  "sections/question6_soln.tex" 1611685215 925 68265b6f90633261acf98da4e5f5be93 ""
+  "sections/question6_soln.tex" 1611703645 1902 77942356b1ecf55ddd85624401dab7b1 ""
   "sections/setup_soln.tex" 1611685215 923 8d64b8fe630b0688f8aff5c06f86f37c ""
   (generated)
-  "hw1_solutions.aux"
-  "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.log"
   "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.pdf"
-  "hw1_solutions.log"
+  "/home/aykutsatici/repos/courses/algebraic_topology/Homework/hw1/hw1_solutions.log"
   "hw1_solutions.pdf"
+  "hw1_solutions.log"
+  "hw1_solutions.aux"

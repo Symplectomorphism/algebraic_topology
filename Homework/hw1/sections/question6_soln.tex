@@ -9,6 +9,22 @@ deformation retracts to any point in the segment $[0, 1] \times \{0\}$, but not
 to any other point.
 
 \begin{solution}
+%
+The existence of a deformation retract from $X$ to any point $(r,0)$ is obvious:
+Compose the map that shrinks the interval $[0,1] \times \{0\}$ to $(r,0)$ with
+the map that shrinks the interval $\{r\} \times [0,1-r]$ to $(r,0)$.
+
+Now, consider an arbitrary point $(r,s)$ with $s > 0$ and hence $r \in
+\mathbb{Q}$. Suppose $X$ deformation retracts to $(r,s)$. Choose a neighborhood
+$U$ of $(r,s)$ small enough to be disjoint from the ``base,'' i.e., containing
+no points for the form $(\overline{r}, 0)$. Let $V \subseteq U$ as in Exercise
+5, so $f:V \times I \rightarrow U$ is a homotopy from the inclusion map $V
+\hookrightarrow U$ to the constant map sending all of $V$ to $(r,s)$.
+
+We observe that if the inclusion $V \hookrightarrow U$ is nullhomotopic, then
+$V$ must be path-connected, for $t \mapsto f_t(x)$ gives a path connecting $x$ 
+to $x_0 = f_1(x)$ (where $x_0$ is independent of $x$). But obviously the $V$ 
+we have just described is not path-connected.
     
 \end{solution}
 
@@ -16,16 +32,16 @@ to any other point.
 number of copies of $X$ arranged as in the figure (in the book). Show that $Y$ 
 is contractible but does not deformation retract onto any point.
 
-\begin{solution}
+% \begin{solution}
     
-\end{solution}
+% \end{solution}
 
 \part Let $Z$ be the zigzag subspace of $Y$ homeomorphic to $\mathbb{R}$
 indicated by the heavier line. Show that there is a deformation retraction in
 the weak sense of $Y$ onto $Z$, but no true deformation retraction.
 
-\begin{solution}
+% \begin{solution}
     
-\end{solution}
+% \end{solution}
 
 \end{parts}
