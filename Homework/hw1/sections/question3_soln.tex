@@ -7,21 +7,67 @@ $Y \rightarrow Z$ is a homotopy equivalence $X \rightarrow Z$. Deduce that
 homotopy equivalence is an equivalence relation.
 
 \begin{solution}
-    
+%
+Suppose that $f_1:X \rightarrow Y$ and $f_2:Y \rightarrow Z$ are homotopy
+equivalences with homotopy inverses $g_1, g_2$, respectively. We want to show
+that $f_2f_1: X \rightarrow Z$ is a homotopy equivalence. Note that $g_1g_2:Z
+\rightarrow X$ for which
+
+\[(f_2f_1) \circ (g_1g_2) = f_2 \circ (f_1g_1) \circ g_2 \simeq f_2 \circ
+\mathbb{1}_Y \circ g_2 = f_2g_2 \simeq \mathbb{1}_Z, \] and
+\[
+(g_1g_2) \circ (f_2f_1) = g_1 \circ (g_2f_2) \circ f_1 \simeq g_1 \circ 
+\mathbb{1}_Z \circ f_1 = g_1f_1 \simeq \mathbb{1}_X.
+\]
+
 \end{solution}
 
 \part Show that the relation of homotopy among maps $X \rightarrow Y$ is an 
 equivalence relation.
 
 \begin{solution}
-    
+
+This relation is \textit{reflexive} because $f:X \rightarrow Y$ is homotopic to
+itself by the identity homotopy: $F(x,t) = x$.
+
+The relation is \textit{symmetric} because if $f,g:X \rightarrow Y$ are
+homotopic and $f \simeq g$ by a homotopy $\varphi_t$, then $g \simeq f$ by the
+inverse homotopy $\varphi_t^{-1}$, defined by $\varphi_t^{-1}(x) =
+\varphi_{(1-t)}(x)$.
+
+Finally, the relation is \textit{transitive}. To show this, suppose that $F:X
+\times I \rightarrow Y$ is a homotopy connecting $f$ to $g$ and that $G: X
+\times I \rightarrow Y$ is a homotopy connecting $g$ to $h$, where $f$, $g$, and 
+$h$ map $X$ to $Y$. Now, define the map $H:X \times I \rightarrow Y$ by
+\[
+H(x,t) = 
+\begin{cases}
+    F(x,2t) & \mbox{if } 0 \leq t \leq \frac{1}{2} \\
+    G(x,2t-1) & \mbox{if } \frac{1}{2} < t \leq 1
+\end{cases}.
+\]
+This map is continuous by construction. The only interesting point is $t =
+\nicefrac{1}{2}$ where it is continuous since $F(x,1) = g(x) = G(x, 0)$. It
+follows that $f \simeq h$.
+
 \end{solution}
 
 \part Show that a map homotopic to a homotopy equivalence is a homotopy
 equivalence.
 
 \begin{solution}
-    
+%
+Suppose that $f: X \rightarrow Y$ is a homotopy equivalence with the homotopy
+inverse $g:Y \rightarrow X$ and that $h \simeq f$ for some $h: X \rightarrow Y$.
+Then, there exists a family $\{f_t:X\rightarrow Y\}_{t \in I}$ connecting $h$ to 
+$f$.
+
+Now, consider the family $\{g \circ f_t:X \rightarrow X\}_{t \in I}$. This
+family connects $g \circ h$ to $g \circ f \simeq \mathbb{1}_X$. By part (b), $h
+\simeq f$ if and only if $f \simeq h$ so that $h \circ g \simeq f \circ g \simeq
+\mathbb{1}_Y$. We have therefore shown that $h:X \rightarrow Y$ is also a 
+homotopy equivalence.
+
 \end{solution}
 
 \end{parts}
