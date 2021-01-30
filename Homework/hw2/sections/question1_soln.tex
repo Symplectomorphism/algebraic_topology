@@ -1,0 +1,34 @@
+\setcounter{question}{8}
+\question Show that a retract of a contractible space is contractible.
+
+% \begin{solution}
+% %
+% Let $X$ be a toplogical space which is contractible, $A \subseteq X$ a subspace,
+% and suppose that $X$ retracts onto $A$ via the map $r$. In other words, suppose
+% $x \in X$ and that $f: X \rightarrow \{x\}$ is a map with homotopy inverse $g:
+% \{x\} \rightarrow X$ for which $fg \simeq \mathbb{1}_{\{x\}}$ and $gf \simeq
+% \mathbb{1}_X$. Let $F: \{x\} \times I \rightarrow \{x\}$ (respectively $G: X
+% \times I \rightarrow X$) denote the homotopy connecting $fg$ and
+% $\mathbb{1}_{\{x\}}$ (respectively, connecting $gf$ and $\mathbb{1}_X$). It 
+% suffices to find homotopies connecting $A$ to $\{x\}$ and vice versa.
+% %
+% \end{solution}
+
+\begin{solution}
+%
+Let $X$ be a contractible space, then $H(x, 0) = \mathbb{1}_X$ for $x \in X$,
+$H(x,1) = c_{x_0}$, and $\mathbb{1}_X \simeq c_{x_0}$, where $c_{x_0}$ is the
+constant map $X \mapsto x_0$. Assume that $X$ retracts to $A$, then $r: X
+\rightarrow A$ is a retract such that $r(X) = A$, $r\rvert_A = \mathbb{1}_A$.
+\\[1ex]
+%
+Define $G = r \circ H$, then $G(a, t) = r(H(a,t))$.
+\[ \begin{tikzcd}
+X \times I \arrow{r}{H} \arrow[swap]{d}{r} & X \arrow{d}{r} \\%
+A \times I \arrow{r}{G} & A
+\end{tikzcd}
+\] Since \[ G(a,0) = r(H(a,0)) = r(a) = a \] so $G_0 = G(A, 0) = \mathbb{1}_A$.
+Also, \[ G(a,1) = r(H(a,1)) = r(x_0) = x_0 \] so $G_1 = G(A,1) = c_{x_0}$. Since
+the composition of continuous maps is continuous, $G$ is the desired homotopy,
+i.e., the retract of $X$ is contractible.
+\end{solution}
